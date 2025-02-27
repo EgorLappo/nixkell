@@ -4,7 +4,7 @@
 # Warning: if you don't choose one from the currently available versions
 # https://github.com/NixOS/nixpkgs/tree/master/pkgs/development/compilers/ghc
 # you will most likely have to compile *everything* yourself.
-version = "9.8.2"
+version = "9.8.4"
 # optimise = true
 # profiling = false
 # benckmark = false
