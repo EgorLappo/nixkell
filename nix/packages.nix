@@ -33,7 +33,7 @@ let
         hlib.disableOptimization
       ++ pkgs.lib.optional (usingOr "profiling" false)
         hlib.enableExecutableProfiling
-      ++ pkgs.lib.optional (usingOr "benckmark" false) hlib.doBenchmark
+      ++ pkgs.lib.optional (usingOr "benchmark" false) hlib.doBenchmark
       ++ pkgs.lib.optional pkgs.stdenv.isAarch64
         (hlib.compose.appendConfigureFlag
           "--ghc-option=-fwhole-archive-hs-libs");
